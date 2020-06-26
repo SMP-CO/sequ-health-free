@@ -4,6 +4,9 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+import Buefy from 'buefy'
+Vue.use(Buefy);
+
 new Vue({
   router,
   render: h => h(App)
