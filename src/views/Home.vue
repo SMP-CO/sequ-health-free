@@ -13,6 +13,9 @@
                     <b-field label="Email Address">
                         <b-input type="email" name="email" required></b-input>
                     </b-field>
+                    <b-field label="Cellphone Number">
+                        <b-input type="text" name="PhoneNumber" required></b-input>
+                    </b-field>
                     <input type="hidden" name="_subject" value="SEQu-HEALTH Request">
                     <input type="hidden" name="_cc" value="dmanalastas@smpcopartners.com">
                     <input type="hidden" name="_replyto">
